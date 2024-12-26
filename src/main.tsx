@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { RouterProvider, createReactRouter } from "@tanstack/react-router";
+import { RouterProvider, createReactRouter } from "@tanstack/router";
 import { fileRoutes } from "./routes/routes.gen";
 
 const router = createReactRouter({

@@ -12,22 +12,23 @@
   "license": "MIT",
   "description": "",
   "dependencies": {
-    "@tanstack/react-router": "^1.92.3",
+    "lightningcss": "^1.28.2",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "swc-loader": "^0.2.6"
   },
   "devDependencies": {
     "@rspack/cli": "^1.1.8",
     "@rspack/core": "^1.1.8",
+    "@tanstack/router-devtools": "^1.92.3",
     "@tanstack/router-plugin": "^1.91.1",
     "@types/node": "^22.10.2",
     "@types/react": "^19.0.2",
     "@types/react-dom": "^19.0.2",
-    "lightningcss": "^1.28.2",
-    "swc-loader": "^0.2.6",
     "typescript": "^5.7.2"
   },
   "trustedDependencies": [
-    "@swc/core"
+    "@swc/core",
+    "esbuild"
   ]
 }
