@@ -12,6 +12,7 @@
   "license": "MIT",
   "description": "",
   "dependencies": {
+    "@tanstack/react-router": "^1.92.3",
     "lightningcss": "^1.28.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",

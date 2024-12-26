@@ -76,7 +76,7 @@ module.exports = {
     // and generate 'routes.gen.ts' in that same folder.
     TanStackRouterRspack({
       routesDir: path.resolve(__dirname, "src", "routes"),
-      outFile: path.resolve(__dirname, "src", "routes", "routes.gen.ts"),
+      outFile: path.resolve(__dirname, "src", "routes", "routes.gen"),
     }),
   ],
   devServer: {
