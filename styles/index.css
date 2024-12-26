@@ -1,0 +1,17 @@
+:root {
+    --bg: #345;
+    --fg: #cca;
+}
+
+body,
+html {
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: var(--bg);
+    color: var(--fg);
+}
+
+h1 {
+    color: #fff;
+}
