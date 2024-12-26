@@ -1,3 +1,7 @@
+@echo on
+git add .
+git add .
+
 @echo off
 if "%1"=="" (
   echo Usage: commit.bat <commit message>
