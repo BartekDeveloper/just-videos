@@ -1,15 +1,14 @@
 import React from "react";
-import { createRoot } from "react-dom/client";
-import { createReactRouter } from "@tanstack/router";
-// The plugin now creates: src/routes/routes.gen.ts
-import { fileRoutes } from "./routes/routes.gen"; 
+import ReactDOM from "react-dom/client";
+import { RouterProvider, createReactRouter } from "@tanstack/react-router";
+import { fileRoutes } from "./routes/routes.gen";
 
 const router = createReactRouter({
   routeConfig: fileRoutes,
 });
 
-createRoot(document.getElementById("root")!).render(
+ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
-    {router.render()}
+    <RouterProvider router={router} />
   </React.StrictMode>
 );

@@ -1,10 +1,5 @@
-import React from "react";
-
-export default function IndexRoute() {
-  return (
-    <div style={{ padding: "1rem" }}>
-      <h1>Home Page</h1>
-      <p>Welcome to the homepage!</p>
-    </div>
-  );
-}
+// This file is optional; you might not need it if everything is in routes.gen.ts
+export function SomeSubRoute() {
+    return <div>Another route or component!</div>;
+  }
+  
